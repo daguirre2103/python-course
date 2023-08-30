@@ -11,11 +11,15 @@ file = open(ruta, "a+")
 
 #WRITE FILE
 
-#file.write("###### TEST ########\n")
+"""
+file.write("###### TEST ########\n")
+"""
 
 #CLOSE FILE
 
-#file.close()
+"""
+file.close()
+"""
 
 #READ FILE
 
@@ -39,6 +43,7 @@ file_read.close()
 for frase in lista:
     print(f"-" + frase)
 """
+
 #READ A LIST WITH A "FOR" AND CREATE A LIST WITH EACH LINE WITH "SPLIT"
 
 """
