@@ -40,18 +40,26 @@ print(numeros)
 print(len(numeros))
 
 #Point 4
-
+"""
 buscar = int(input("Introduce a number: "))
 
 if numeros.count(buscar) == 0:
     print(f"{buscar} no es exite en la lista")
 else:
     print(f"El {buscar} esta {numeros.count(buscar)} veces en la lista")
+"""
 
 # Point 5
 
+# The same exercese point 4 but with exceptions.
 
+try:
+    buscar = int(input("Introduce a number: "))
 
-
-    
+    if numeros.count(buscar) == 0:
+        print(f"{buscar} no es exite en la lista")
+    else:
+        print(f"El {buscar} esta {numeros.count(buscar)} veces en la lista")
+except:
+    print("Error, ud no intrujo un numero, lo siento!")
 
